@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles/index.css">    
+<script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+    <script defer src="./poke-api.js"></script> 
+    <script defer src="./index.js"></script>
+    <title>PokéAPI</title>
+</head>
+<body>
+    <form id="container">
+        <h1 class="page-title">Who's that Pokémon?</h1>
+        <div class="pokemon__wrapper">
+            <div class="score__wrapper">
+                <div id="pokemon__image-container"></div>
+                <div id="user__score" class="user__score"></div>
+            </div>
+            <div id="pokemon__options"></div>
+        </div>
+    </form>
+</body>
+</html>
