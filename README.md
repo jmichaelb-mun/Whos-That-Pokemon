@@ -1,3 +1,5 @@
+# Whos-That-Pokemon
+
 Are you a Pokemon Master? 
 
 Test your knowledge of Pokemon with this fun and interactive game.
@@ -13,4 +15,4 @@ To be completed going forward:
 - Remove the silhouette upon player getting the answer correct
 
 
-# Whos-That-Pokemon
+
